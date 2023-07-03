@@ -2,17 +2,125 @@
 title: "Lab1"
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#library(icon)
+library(kableExtra)
+library(formattable)
+library(dplyr)
+library(knitr)
+```
+
+```{r include=FALSE}
+
+# loading the main table from csv
+lista_reagenti <- read.csv2("lista_sds.csv", header = TRUE)
+
+#colnames(lista_consumabili) <- c("Reagent", "Code", "Company", "Weight", "Quantity", "Note",...)
+
+# subsetting the main table
+letter_A <- subset(lista_reagenti, filter_name == "A")
+
+letter_B <- subset(lista_reagenti, filter_name == "B")
+
+letter_C <- subset(lista_reagenti, filter_name == "C")
+
+letter_D <- subset(lista_reagenti, filter_name == "D")
+
+letter_E <- subset(lista_reagenti, filter_name == "E")
+
+letter_F <- subset(lista_reagenti, filter_name == "F")
+
+letter_G <- subset(lista_reagenti, filter_name == "G")
+
+letter_H <- subset(lista_reagenti, filter_name == "H")
+
+letter_I <- subset(lista_reagenti, filter_name == "I")
+
+letter_J <- subset(lista_reagenti, filter_name == "J")
+
+letter_K <- subset(lista_reagenti, filter_name == "K")
+
+letter_L <- subset(lista_reagenti, filter_name == "L")
+
+letter_M <- subset(lista_reagenti, filter_name == "M")
+
+letter_N <- subset(lista_reagenti, filter_name == "N")
+
+letter_O <- subset(lista_reagenti, filter_name == "O")
+
+letter_P <- subset(lista_reagenti, filter_name == "P")
+
+letter_Q <- subset(lista_reagenti, filter_name == "Q")
+
+letter_R <- subset(lista_reagenti, filter_name == "R")
+
+letter_S <- subset(lista_reagenti, filter_name == "S")
+
+letter_T <- subset(lista_reagenti, filter_name == "T")
+
+letter_U <- subset(lista_reagenti, filter_name == "U")
+
+letter_V <- subset(lista_reagenti, filter_name == "V")
+
+letter_W <- subset(lista_reagenti, filter_name == "W")
+
+letter_X <- subset(lista_reagenti, filter_name == "X")
+
+letter_Y <- subset(lista_reagenti, filter_name == "Y")
+
+letter_Z <- subset(lista_reagenti, filter_name == "Z")
+
+```
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Risus quis varius quam quisque id diam vel quam. Sit amet cursus sit amet.
+
+### Last update: 10 / 01 / 2023
+#### for any update (deposit or withdrawal), please email me! --> [Mauro](mailto:mauro.maver@unibz.it?subject=[Update]%20Storage%20K-1%20and%20Lab%201.20)
+
+---
+
+### Last changes:
+- 10/01/2023 - List updated - **Mauro**
+- 16/11/2022 - List updated - **Mauro**
+- 27/01/2022 - List updated - **Mauro**
+- 13/01/2022 - List updated - **Mauro**
+- 09/11/2021 - 2.5L Ethanol Ab. and KNO3 removed - **Mauro**
+- 10/09/2021 - ACN 2.5L removed - **Mauro**
+- 10/06/2021 - List updated (95%) - **Mauro**
+- 07/06/2021 - Xylitol 25g empty and removed (Simon) - **Mauro**
+- 01/06/2021 - List updated (90%) - **Mauro**
+- 31/05/2021 - List updated (70%) - **Mauro**
+- 28/05/2021 - List created - **Mauro**
+
+---
+
 
 # SDS lista
 
 ## A
 
-| reagente | codice | azienda | SDS                                                             |
-|--------------------|------------------|------------------|------------------|
-| sale 1   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
-| sale 2   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
-| sale 3   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
+```{r echo=FALSE}
+
+letter_A <- letter_A %>%
+  mutate(link_link = cell_spec("SDS", "html", link = sds))
+
+letter_A[,-c(1,2,5,9,12,13)] %>%
+  # mutate(
+  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
+  #                 cell_spec(Reagent, "html", color = "red", bold = T),
+  #                 cell_spec(Reagent, "html")),
+  #   Quantity = ifelse(Quantity > 0,
+  #                 cell_spec(Quantity, "html"),
+  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
+  #   # Note = ifelse(Note == "not found" | Note =="ending",
+  #   #               cell_spec(Note, "html", color = "red", bold = T),
+  #   #               cell_spec(Note, "html"))
+  # ) %>%
+  kable(row.names = FALSE, align = "l","html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)
+
+```
 
 ## B
 
