@@ -2,30 +2,30 @@
 title: "Lab1"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Risus quis varius quam quisque id diam vel quam. Sit amet cursus sit amet. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Risus quis varius quam quisque id diam vel quam. Sit amet cursus sit amet.
 
 # SDS lista
 
 ## A
 
-| reagente | codice | azienda | SDS  |
-|----------|--------|---------|------|
+| reagente | codice | azienda | SDS                                                             |
+|--------------------|------------------|------------------|------------------|
 | sale 1   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
 | sale 2   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
 | sale 3   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
 
 ## B
 
-| reagente | codice | azienda | SDS  |
-|----------|--------|---------|------|
+| reagente | codice | azienda | SDS                                                             |
+|--------------------|------------------|------------------|------------------|
 | sale 1   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
 | sale 2   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
 | sale 3   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
 
 ## C
 
-| reagente | codice | azienda | SDS  |
-|----------|--------|---------|------|
+| reagente | codice | azienda | SDS                                                             |
+|--------------------|------------------|------------------|------------------|
 | sale 1   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
 | sale 2   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |
 | sale 3   | XXX    | XXX     | [SDS link](https://www.sigmaaldrich.com/IT/en/sds/sigald/s9888) |

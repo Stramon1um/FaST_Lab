@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "lab1.html",
+    "href": "lab1.html",
+    "title": "Lab1",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Risus quis varius quam quisque id diam vel quam. Sit amet cursus sit amet."
+  },
+  {
+    "objectID": "lab1.html#a",
+    "href": "lab1.html#a",
+    "title": "Lab1",
+    "section": "A",
+    "text": "A\n\n\n\nreagente\ncodice\nazienda\nSDS\n\n\n\n\nsale 1\nXXX\nXXX\nSDS link\n\n\nsale 2\nXXX\nXXX\nSDS link\n\n\nsale 3\nXXX\nXXX\nSDS link"
+  },
+  {
+    "objectID": "lab1.html#b",
+    "href": "lab1.html#b",
+    "title": "Lab1",
+    "section": "B",
+    "text": "B\n\n\n\nreagente\ncodice\nazienda\nSDS\n\n\n\n\nsale 1\nXXX\nXXX\nSDS link\n\n\nsale 2\nXXX\nXXX\nSDS link\n\n\nsale 3\nXXX\nXXX\nSDS link"
+  },
+  {
+    "objectID": "lab1.html#c",
+    "href": "lab1.html#c",
+    "title": "Lab1",
+    "section": "C",
+    "text": "C\n\n\n\nreagente\ncodice\nazienda\nSDS\n\n\n\n\nsale 1\nXXX\nXXX\nSDS link\n\n\nsale 2\nXXX\nXXX\nSDS link\n\n\nsale 3\nXXX\nXXX\nSDS link"
+  },
+  {
+    "objectID": "lab3.html",
+    "href": "lab3.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "lab2.html",
+    "href": "lab2.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SDS test test",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Risus quis varius quam quisque id diam vel quam. Sit amet cursus sit amet. Pretium aenean pharetra magna ac placerat. Quisque non tellus orci ac auctor augue mauris augue neque. Facilisis magna etiam tempor orci. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Turpis tincidunt id aliquet risus feugiat in ante metus. Suspendisse sed nisi lacus sed viverra tellus in. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Pharetra vel turpis nunc eget lorem."
+  },
+  {
+    "objectID": "index.html#edificio-x",
+    "href": "index.html#edificio-x",
+    "title": "SDS test test",
+    "section": "Edificio X",
+    "text": "Edificio X\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam.\n\nPiano terra\n\nLab 1\nLab 2\n\n\n\nPrimo piano\n\nLab 3"
+  },
+  {
+    "objectID": "index.html#edificio-y",
+    "href": "index.html#edificio-y",
+    "title": "SDS test test",
+    "section": "Edificio Y",
+    "text": "Edificio Y\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam.\n\nPiano terra 2\n\nLab 1\nLab 2\n\n\n\nPrimo piano 2\n\nLab 3"
+  },
+  {
+    "objectID": "index.html#edificio-z",
+    "href": "index.html#edificio-z",
+    "title": "SDS test test",
+    "section": "Edificio Z",
+    "text": "Edificio Z\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam.\n\nPiano terra 3\n\nLab 1\nLab 2\n\n\n\nPrimo piano 3\n\nLab 3"
+  }
+]
