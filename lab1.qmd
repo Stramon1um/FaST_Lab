@@ -103,9 +103,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ```{r echo=FALSE}
 
 letter_A <- letter_A %>%
-  mutate(link_link = cell_spec("SDS", "html", link = sds))
+  mutate(SDS = cell_spec("SDS", "html", link = sds))
 
-letter_A[,-c(1,2,5,9,12,13)] %>%
+letter_A[,-c(1,2,5,9,12)] %>%
   # mutate(
   #   Reagent = ifelse(Quantity == 0 | Note == "ending",
   #                 cell_spec(Reagent, "html", color = "red", bold = T),
@@ -118,7 +118,7 @@ letter_A[,-c(1,2,5,9,12,13)] %>%
   #   #               cell_spec(Note, "html"))
   # ) %>%
   kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 16)
+  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
 
 ```
 
