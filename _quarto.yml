@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "SDS test test"
+  title: "SDS List"
   navbar:
     left:
       - href: index.qmd
@@ -14,8 +14,8 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     toc-expand: true
 
-editor: visual
+editor: source
 
