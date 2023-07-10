@@ -1,5 +1,5 @@
 ---
-title: "Lab E1.12 - Didattic Lab"
+title: "Lab E1.12 - Teaching Laboratory I"
 ---
 
 ```{r setup, include=FALSE}
@@ -72,19 +72,21 @@ letter_Z <- subset(lista_reagenti, filter_name == "Z")
 
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Risus quis varius quam quisque id diam vel quam. Sit amet cursus sit amet.
+**Laboratory Responsible**: Fabio Valentinuzzi - [email](mailto:fabio.valentinuzzi@unibz.it)
 
-Responsible: XXX YYY ZZZ
+**Laboratory Technician**: Fabio Valentinuzzi - [email](mailto:fabio.valentinuzzi@unibz.it) [phone](tel:+390471017627) 
+
+**General technician contact** - [email](mailto:techstaff.agriculture@unibz.it) [phone](tel:+393316742962)
+
+**Call [112](tel:112) for Emergency**
 
 Last update: 10 / 01 / 2023
-
-For any info or help --> link
 
 ------------------------------------------------------------------------
 
 ### Last changes:
 
--   ciao ciao
+-   ..
 
 ------------------------------------------------------------------------
 
