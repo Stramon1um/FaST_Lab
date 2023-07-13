@@ -15,89 +15,156 @@ library(dplyr)
 # loading the main table from csv
 lista_reagenti <- read.csv2("lista_sds.csv", header = TRUE)
 
-#colnames(lista_consumabili) <- c("Reagent", "Code", "Company", "Weight", "Quantity", "Note",...)
+# filtering for Lab
+lista_reagenti_lab_E1_22 <- subset(lista_reagenti, lab=="1.12")
+
+colnames(lista_reagenti_lab_E1_22) <- c("lab", "filter_name", "Shelf", "Name", "Weight", "Unit", "Producer", "Quantity", "Code", "sds")
 
 # subsetting the main table
-letter_A <- subset(lista_reagenti, filter_name == "A")
+letter_A <- subset(lista_reagenti_lab_E1_22, filter_name == "A")
 
-letter_B <- subset(lista_reagenti, filter_name == "B")
+letter_B <- subset(lista_reagenti_lab_E1_22, filter_name == "B")
 
-letter_C <- subset(lista_reagenti, filter_name == "C")
+letter_C <- subset(lista_reagenti_lab_E1_22, filter_name == "C")
 
-letter_D <- subset(lista_reagenti, filter_name == "D")
+letter_D <- subset(lista_reagenti_lab_E1_22, filter_name == "D")
 
-letter_E <- subset(lista_reagenti, filter_name == "E")
+letter_E <- subset(lista_reagenti_lab_E1_22, filter_name == "E")
 
-letter_F <- subset(lista_reagenti, filter_name == "F")
+letter_F <- subset(lista_reagenti_lab_E1_22, filter_name == "F")
 
-letter_G <- subset(lista_reagenti, filter_name == "G")
+letter_G <- subset(lista_reagenti_lab_E1_22, filter_name == "G")
 
-letter_H <- subset(lista_reagenti, filter_name == "H")
+letter_H <- subset(lista_reagenti_lab_E1_22, filter_name == "H")
 
-letter_I <- subset(lista_reagenti, filter_name == "I")
+letter_I <- subset(lista_reagenti_lab_E1_22, filter_name == "I")
 
-letter_J <- subset(lista_reagenti, filter_name == "J")
+letter_J <- subset(lista_reagenti_lab_E1_22, filter_name == "J")
 
-letter_K <- subset(lista_reagenti, filter_name == "K")
+letter_K <- subset(lista_reagenti_lab_E1_22, filter_name == "K")
 
-letter_L <- subset(lista_reagenti, filter_name == "L")
+letter_L <- subset(lista_reagenti_lab_E1_22, filter_name == "L")
 
-letter_M <- subset(lista_reagenti, filter_name == "M")
+letter_M <- subset(lista_reagenti_lab_E1_22, filter_name == "M")
 
-letter_N <- subset(lista_reagenti, filter_name == "N")
+letter_N <- subset(lista_reagenti_lab_E1_22, filter_name == "N")
 
-letter_O <- subset(lista_reagenti, filter_name == "O")
+letter_O <- subset(lista_reagenti_lab_E1_22, filter_name == "O")
 
-letter_P <- subset(lista_reagenti, filter_name == "P")
+letter_P <- subset(lista_reagenti_lab_E1_22, filter_name == "P")
 
-letter_Q <- subset(lista_reagenti, filter_name == "Q")
+letter_Q <- subset(lista_reagenti_lab_E1_22, filter_name == "Q")
 
-letter_R <- subset(lista_reagenti, filter_name == "R")
+letter_R <- subset(lista_reagenti_lab_E1_22, filter_name == "R")
 
-letter_S <- subset(lista_reagenti, filter_name == "S")
+letter_S <- subset(lista_reagenti_lab_E1_22, filter_name == "S")
 
-letter_T <- subset(lista_reagenti, filter_name == "T")
+letter_T <- subset(lista_reagenti_lab_E1_22, filter_name == "T")
 
-letter_U <- subset(lista_reagenti, filter_name == "U")
+letter_U <- subset(lista_reagenti_lab_E1_22, filter_name == "U")
 
-letter_V <- subset(lista_reagenti, filter_name == "V")
+letter_V <- subset(lista_reagenti_lab_E1_22, filter_name == "V")
 
-letter_W <- subset(lista_reagenti, filter_name == "W")
+letter_W <- subset(lista_reagenti_lab_E1_22, filter_name == "W")
 
-letter_X <- subset(lista_reagenti, filter_name == "X")
+letter_X <- subset(lista_reagenti_lab_E1_22, filter_name == "X")
 
-letter_Y <- subset(lista_reagenti, filter_name == "Y")
+letter_Y <- subset(lista_reagenti_lab_E1_22, filter_name == "Y")
 
-letter_Z <- subset(lista_reagenti, filter_name == "Z")
+letter_Z <- subset(lista_reagenti_lab_E1_22, filter_name == "Z")
+
+# subsetting the fridge tables
+
+letter_FA <- subset(lista_reagenti_lab_E1_22, filter_name == "F_A")
+
+letter_FB <- subset(lista_reagenti_lab_E1_22, filter_name == "F_B")
+
+letter_FC <- subset(lista_reagenti_lab_E1_22, filter_name == "F_C")
+
+letter_FD <- subset(lista_reagenti_lab_E1_22, filter_name == "F_D")
+
+letter_FE <- subset(lista_reagenti_lab_E1_22, filter_name == "F_E")
+
+letter_FF <- subset(lista_reagenti_lab_E1_22, filter_name == "F_F")
+
+letter_FG <- subset(lista_reagenti_lab_E1_22, filter_name == "F_G")
+
+letter_FH <- subset(lista_reagenti_lab_E1_22, filter_name == "F_H")
+
+letter_FI <- subset(lista_reagenti_lab_E1_22, filter_name == "F_I")
+
+letter_FJ <- subset(lista_reagenti_lab_E1_22, filter_name == "F_J")
+
+letter_FK <- subset(lista_reagenti_lab_E1_22, filter_name == "F_K")
+
+letter_FL <- subset(lista_reagenti_lab_E1_22, filter_name == "F_L")
+
+letter_FM <- subset(lista_reagenti_lab_E1_22, filter_name == "F_M")
+
+letter_FN <- subset(lista_reagenti_lab_E1_22, filter_name == "F_N")
+
+letter_FO <- subset(lista_reagenti_lab_E1_22, filter_name == "F_O")
+
+letter_FP <- subset(lista_reagenti_lab_E1_22, filter_name == "F_P")
+
+letter_FQ <- subset(lista_reagenti_lab_E1_22, filter_name == "F_Q")
+
+letter_FR <- subset(lista_reagenti_lab_E1_22, filter_name == "F_R")
+
+letter_FS <- subset(lista_reagenti_lab_E1_22, filter_name == "F_S")
+
+letter_FT <- subset(lista_reagenti_lab_E1_22, filter_name == "F_T")
+
+letter_FU <- subset(lista_reagenti_lab_E1_22, filter_name == "F_U")
+
+letter_FV <- subset(lista_reagenti_lab_E1_22, filter_name == "F_V")
+
+letter_FW <- subset(lista_reagenti_lab_E1_22, filter_name == "F_W")
+
+letter_FX <- subset(lista_reagenti_lab_E1_22, filter_name == "F_X")
+
+letter_FY <- subset(lista_reagenti_lab_E1_22, filter_name == "F_Y")
+
+letter_FZ <- subset(lista_reagenti_lab_E1_22, filter_name == "F_Z")
+
+# subsetting the Acid / Base tables
+
+letter_AB_A <- subset(lista_reagenti_lab_E1_22, filter_name == "AB_A")
 
 ```
 
+::: {.callout-note}
 **Laboratory Responsible**: Fabio Valentinuzzi - [email](mailto:fabio.valentinuzzi@unibz.it)
 
 **Laboratory Technician**: Fabio Valentinuzzi - [email](mailto:fabio.valentinuzzi@unibz.it) [phone](tel:+390471017627) 
 
 **General technician contact** - [email](mailto:techstaff.agriculture@unibz.it) [phone](tel:+393316742962)
+:::
 
-**Call [112](tel:112) for Emergency**
+::: {.callout-important}
+Call [112](tel:112) in case of Emergency
+:::
 
-Last update: 10 / 01 / 2023
+Last update: 13 / 07 / 2023
 
 ------------------------------------------------------------------------
 
-### Last changes:
+#### Last changes:
 
 -   ..
 
 ------------------------------------------------------------------------
 
-## A
+## Reagents Cabinet
+
+### A
 
 ```{r echo=FALSE}
 
 letter_A <- letter_A %>%
   mutate(SDS = cell_spec("SDS", "html", link = sds))
 
-letter_A[,-c(1,2,5,6,7,9,12)] %>%
+letter_A[,-c(1,2,5,6,8,10)] %>%
   # mutate(
   #   Reagent = ifelse(Quantity == 0 | Note == "ending",
   #                 cell_spec(Reagent, "html", color = "red", bold = T),
@@ -114,14 +181,14 @@ letter_A[,-c(1,2,5,6,7,9,12)] %>%
 
 ```
 
-## B
+### B
 
 ```{r echo=FALSE}
 
 letter_B <- letter_B %>%
   mutate(SDS = cell_spec("SDS", "html", link = sds))
 
-letter_B[,-c(1,2,5,6,7,9,12)] %>%
+letter_B[,-c(1,2,5,6,8,10)] %>%
   # mutate(
   #   Reagent = ifelse(Quantity == 0 | Note == "ending",
   #                 cell_spec(Reagent, "html", color = "red", bold = T),
@@ -138,14 +205,16 @@ letter_B[,-c(1,2,5,6,7,9,12)] %>%
 
 ```
 
-## C
+## Fridge
+
+### A
 
 ```{r echo=FALSE}
 
-letter_C <- letter_C %>%
+letter_FA <- letter_FA %>%
   mutate(SDS = cell_spec("SDS", "html", link = sds))
 
-letter_C[,-c(1,2,5,6,7,9,12)] %>%
+letter_FA[,-c(1,2,3,5,6,8,10)] %>%
   # mutate(
   #   Reagent = ifelse(Quantity == 0 | Note == "ending",
   #                 cell_spec(Reagent, "html", color = "red", bold = T),
@@ -162,230 +231,16 @@ letter_C[,-c(1,2,5,6,7,9,12)] %>%
 
 ```
 
-## D
+## Acid / Base Cabinet
+
+### A
 
 ```{r echo=FALSE}
 
-letter_D <- letter_D %>%
+letter_AB_A <- letter_AB_A %>%
   mutate(SDS = cell_spec("SDS", "html", link = sds))
 
-letter_D[,-c(1,2,5,6,7,9,12)] %>%
-  # mutate(
-  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
-  #                 cell_spec(Reagent, "html", color = "red", bold = T),
-  #                 cell_spec(Reagent, "html")),
-  #   Quantity = ifelse(Quantity > 0,
-  #                 cell_spec(Quantity, "html"),
-  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
-  #   # Note = ifelse(Note == "not found" | Note =="ending",
-  #   #               cell_spec(Note, "html", color = "red", bold = T),
-  #   #               cell_spec(Note, "html"))
-  # ) %>%
-  kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
-
-```
-
-## E
-
-```{r echo=FALSE}
-
-letter_E <- letter_E %>%
-  mutate(SDS = cell_spec("SDS", "html", link = sds))
-
-letter_E[,-c(1,2,5,6,7,9,12)] %>%
-  # mutate(
-  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
-  #                 cell_spec(Reagent, "html", color = "red", bold = T),
-  #                 cell_spec(Reagent, "html")),
-  #   Quantity = ifelse(Quantity > 0,
-  #                 cell_spec(Quantity, "html"),
-  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
-  #   # Note = ifelse(Note == "not found" | Note =="ending",
-  #   #               cell_spec(Note, "html", color = "red", bold = T),
-  #   #               cell_spec(Note, "html"))
-  # ) %>%
-  kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
-
-```
-
-## F
-
-```{r echo=FALSE}
-
-letter_F <- letter_F %>%
-  mutate(SDS = cell_spec("SDS", "html", link = sds))
-
-letter_F[,-c(1,2,5,6,7,9,12)] %>%
-  # mutate(
-  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
-  #                 cell_spec(Reagent, "html", color = "red", bold = T),
-  #                 cell_spec(Reagent, "html")),
-  #   Quantity = ifelse(Quantity > 0,
-  #                 cell_spec(Quantity, "html"),
-  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
-  #   # Note = ifelse(Note == "not found" | Note =="ending",
-  #   #               cell_spec(Note, "html", color = "red", bold = T),
-  #   #               cell_spec(Note, "html"))
-  # ) %>%
-  kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
-
-```
-
-## G
-
-```{r echo=FALSE}
-
-letter_G <- letter_G %>%
-  mutate(SDS = cell_spec("SDS", "html", link = sds))
-
-letter_G[,-c(1,2,5,6,7,9,12)] %>%
-  # mutate(
-  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
-  #                 cell_spec(Reagent, "html", color = "red", bold = T),
-  #                 cell_spec(Reagent, "html")),
-  #   Quantity = ifelse(Quantity > 0,
-  #                 cell_spec(Quantity, "html"),
-  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
-  #   # Note = ifelse(Note == "not found" | Note =="ending",
-  #   #               cell_spec(Note, "html", color = "red", bold = T),
-  #   #               cell_spec(Note, "html"))
-  # ) %>%
-  kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
-
-```
-
-## H
-
-```{r echo=FALSE}
-
-letter_H <- letter_H %>%
-  mutate(SDS = cell_spec("SDS", "html", link = sds))
-
-letter_H[,-c(1,2,5,6,7,9,12)] %>%
-  # mutate(
-  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
-  #                 cell_spec(Reagent, "html", color = "red", bold = T),
-  #                 cell_spec(Reagent, "html")),
-  #   Quantity = ifelse(Quantity > 0,
-  #                 cell_spec(Quantity, "html"),
-  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
-  #   # Note = ifelse(Note == "not found" | Note =="ending",
-  #   #               cell_spec(Note, "html", color = "red", bold = T),
-  #   #               cell_spec(Note, "html"))
-  # ) %>%
-  kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
-
-```
-
-## I
-
-```{r echo=FALSE}
-
-letter_I <- letter_I %>%
-  mutate(SDS = cell_spec("SDS", "html", link = sds))
-
-letter_I[,-c(1,2,5,6,7,9,12)] %>%
-  # mutate(
-  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
-  #                 cell_spec(Reagent, "html", color = "red", bold = T),
-  #                 cell_spec(Reagent, "html")),
-  #   Quantity = ifelse(Quantity > 0,
-  #                 cell_spec(Quantity, "html"),
-  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
-  #   # Note = ifelse(Note == "not found" | Note =="ending",
-  #   #               cell_spec(Note, "html", color = "red", bold = T),
-  #   #               cell_spec(Note, "html"))
-  # ) %>%
-  kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
-
-```
-
-## J
-
-```{r echo=FALSE}
-
-letter_J <- letter_J %>%
-  mutate(SDS = cell_spec("SDS", "html", link = sds))
-
-letter_J[,-c(1,2,5,6,7,9,12)] %>%
-  # mutate(
-  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
-  #                 cell_spec(Reagent, "html", color = "red", bold = T),
-  #                 cell_spec(Reagent, "html")),
-  #   Quantity = ifelse(Quantity > 0,
-  #                 cell_spec(Quantity, "html"),
-  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
-  #   # Note = ifelse(Note == "not found" | Note =="ending",
-  #   #               cell_spec(Note, "html", color = "red", bold = T),
-  #   #               cell_spec(Note, "html"))
-  # ) %>%
-  kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
-
-```
-
-## K
-
-```{r echo=FALSE}
-
-letter_K <- letter_K %>%
-  mutate(SDS = cell_spec("SDS", "html", link = sds))
-
-letter_K[,-c(1,2,5,6,7,9,12)] %>%
-  # mutate(
-  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
-  #                 cell_spec(Reagent, "html", color = "red", bold = T),
-  #                 cell_spec(Reagent, "html")),
-  #   Quantity = ifelse(Quantity > 0,
-  #                 cell_spec(Quantity, "html"),
-  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
-  #   # Note = ifelse(Note == "not found" | Note =="ending",
-  #   #               cell_spec(Note, "html", color = "red", bold = T),
-  #   #               cell_spec(Note, "html"))
-  # ) %>%
-  kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
-
-```
-
-## L
-
-```{r echo=FALSE}
-
-letter_L <- letter_L %>%
-  mutate(SDS = cell_spec("SDS", "html", link = sds))
-
-letter_L[,-c(1,2,5,6,7,9,12)] %>%
-  # mutate(
-  #   Reagent = ifelse(Quantity == 0 | Note == "ending",
-  #                 cell_spec(Reagent, "html", color = "red", bold = T),
-  #                 cell_spec(Reagent, "html")),
-  #   Quantity = ifelse(Quantity > 0,
-  #                 cell_spec(Quantity, "html"),
-  #                 cell_spec(Quantity, "html", color = "red", bold = T)),
-  #   # Note = ifelse(Note == "not found" | Note =="ending",
-  #   #               cell_spec(Note, "html", color = "red", bold = T),
-  #   #               cell_spec(Note, "html"))
-  # ) %>%
-  kable(row.names = FALSE, align = "l","html", escape = F) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive", "condensed"), font_size = 14)
-
-```
-
-## M
-
-```{r echo=FALSE}
-
-letter_M <- letter_M %>%
-  mutate(SDS = cell_spec("SDS", "html", link = sds))
-
-letter_M[,-c(1,2,5,6,7,9,12)] %>%
+letter_AB_A[,-c(1,2,5,6,8,10)] %>%
   # mutate(
   #   Reagent = ifelse(Quantity == 0 | Note == "ending",
   #                 cell_spec(Reagent, "html", color = "red", bold = T),

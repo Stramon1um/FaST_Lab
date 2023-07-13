@@ -8,13 +8,18 @@ website:
     left:
       - href: index.qmd
         text: Home
+    background: primary
+  page-footer: 
+    right: "Creato da Mauro Maver" 
+    background: primary
+    foreground: primary
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-    toc-depth: 2
+    toc-depth: 3
     toc-expand: true
 
 editor: source
