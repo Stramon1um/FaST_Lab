@@ -16,23 +16,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## E Building
 
-- BZ-E011 - Laboratory for Entomology and Fruit Analysis
-- BZ-E012a - Laboratory for Environmental Science
-- BZ-E012b - Laboratory for Analytical Chemistry I
-- BZ-E020 - Laboratory for Sample Preparation I
-- BZ-E021 - Laboratory for Bioorganic Chemistry and Bio-crystallography
-- BZ-E022 - Laboratory for Phytopathology
-- BZ-E023 - Laboratory for Animal Science 
-- BZ-E111 - Isotope Laboratory
-- [BZ-E112](BZ_E112.qmd) - Teaching Laboratory I
-- BZ-E120 - Laboratory for Analytical Chemistry II
-- BZ-E122 - Laboratory for Molecular Biology
-- BZ-E231 - Teaching Laboratory II
+- BZ-E0.11 - Laboratory for Entomology and Fruit Analysis
+- BZ-E0.12a - Laboratory for Environmental Science
+- BZ-E0.12b - Laboratory for Analytical Chemistry I
+- BZ-E0.20 - Laboratory for Sample Preparation I
+- BZ-E0.21 - Laboratory for Bioorganic Chemistry and Bio-crystallography
+- BZ-E0.22 - Laboratory for Phytopathology
+- BZ-E0.23 - Laboratory for Animal Science 
+- BZ-E1.11 - Isotope Laboratory
+- [BZ-E1.12](BZ_E112.qmd) - Teaching Laboratory I
+- BZ-E1.20 - Laboratory for Analytical Chemistry II
+- BZ-E1.22 - Laboratory for Molecular Biology
+- BZ-E2.31 - Teaching Laboratory II
 
 ## K Building
 
-- BZ-KU03 - Climatic chamber
-- BZ-KU06 - Room for Sample Preparation
+- BZ-KU.03 - Climatic chamber
+- BZ-KU.06 - Room for Sample Preparation
 
 # NOI Techpark
 

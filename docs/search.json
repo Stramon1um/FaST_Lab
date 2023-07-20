@@ -186,14 +186,14 @@
     "href": "index.html#e-building",
     "title": "Laboratories of the Faculty of Agricultural, Environmental and Food Sciences",
     "section": "E Building",
-    "text": "E Building\n\nBZ-E011 - Laboratory for Entomology and Fruit Analysis\nBZ-E012a - Laboratory for Environmental Science\nBZ-E012b - Laboratory for Analytical Chemistry I\nBZ-E020 - Laboratory for Sample Preparation I\nBZ-E021 - Laboratory for Bioorganic Chemistry and Bio-crystallography\nBZ-E022 - Laboratory for Phytopathology\nBZ-E023 - Laboratory for Animal Science\nBZ-E111 - Isotope Laboratory\nBZ-E112 - Teaching Laboratory I\nBZ-E120 - Laboratory for Analytical Chemistry II\nBZ-E122 - Laboratory for Molecular Biology\nBZ-E231 - Teaching Laboratory II"
+    "text": "E Building\n\nBZ-E0.11 - Laboratory for Entomology and Fruit Analysis\nBZ-E0.12a - Laboratory for Environmental Science\nBZ-E0.12b - Laboratory for Analytical Chemistry I\nBZ-E0.20 - Laboratory for Sample Preparation I\nBZ-E0.21 - Laboratory for Bioorganic Chemistry and Bio-crystallography\nBZ-E0.22 - Laboratory for Phytopathology\nBZ-E0.23 - Laboratory for Animal Science\nBZ-E1.11 - Isotope Laboratory\nBZ-E1.12 - Teaching Laboratory I\nBZ-E1.20 - Laboratory for Analytical Chemistry II\nBZ-E1.22 - Laboratory for Molecular Biology\nBZ-E2.31 - Teaching Laboratory II"
   },
   {
     "objectID": "index.html#k-building",
     "href": "index.html#k-building",
     "title": "Laboratories of the Faculty of Agricultural, Environmental and Food Sciences",
     "section": "K Building",
-    "text": "K Building\n\nBZ-KU03 - Climatic chamber\nBZ-KU06 - Room for Sample Preparation"
+    "text": "K Building\n\nBZ-KU.03 - Climatic chamber\nBZ-KU.06 - Room for Sample Preparation"
   },
   {
     "objectID": "index.html#a-building",
