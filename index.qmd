@@ -8,11 +8,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 :::
 
----
-
 ::: {style="font-size:20px;"}
 
 # Unibz Building
+
+----
 
 ## E Building
 
@@ -36,6 +36,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # NOI Techpark
 
+----
+
 ## A Building
 
 - BZ-NOI-A2 2.03 - Bakery Inspirience Center
@@ -55,5 +57,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## B Building
 
 - BZ-NOI-B5 0.02 - Agroforestry Innovations Lab
+
+# Laimburg
+
+----
+
+- Laimburg 1 - Laboratory for Soil and Plant processing
+- Laimburg 2 - Laboratory for Animal Science 
+- Laimburg Lab 1 (D.0.08) - Laboratory for Plant Pathology and Plant Biology
+- Laimburg Lab 2 (D.0.07) - Laboratory for Analitical Chemistry
+- Laimburg Lab 3 (D.0.09) - Laboratory for Ecophysiology
+- Laimburg-Serra - Greenhouse Laimburg
 
 :::
