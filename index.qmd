@@ -19,15 +19,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - BZ-E0.11 - Laboratory for Entomology and Fruit Analysis
 - BZ-E0.12a - Laboratory for Environmental Science
 - BZ-E0.12b - Laboratory for Analytical Chemistry I
-- BZ-E0.20 - Laboratory for Sample Preparation I
-- BZ-E0.21 - Laboratory for Bioorganic Chemistry and Bio-crystallography
-- BZ-E0.22 - Laboratory for Phytopathology
+- [BZ-E0.20](BZ_E020.qmd) - Laboratory for Sample Preparation I
+- [BZ-E0.21](BZ_E021.qmd) - Laboratory for Bioorganic Chemistry and Bio-crystallography
+- [BZ-E0.22](BZ_E022.qmd) - Laboratory for Phytopathology
 - BZ-E0.23 - Laboratory for Animal Science 
 - BZ-E1.11 - Isotope Laboratory
 - [BZ-E1.12](BZ_E112.qmd) - Teaching Laboratory I
 - BZ-E1.20 - Laboratory for Analytical Chemistry II
-- BZ-E1.22 - Laboratory for Molecular Biology
-- BZ-E2.31 - Teaching Laboratory II
+- [BZ-E1.22](BZ_E122.qmd) - Laboratory for Molecular Biology
+- [BZ-E2.31](BZ_E231.qmd) - Teaching Laboratory II
 
 ## K Building
 
