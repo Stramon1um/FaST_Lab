@@ -27,6 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - [BZ-E1.12](BZ_E112.qmd) - Teaching Laboratory I
 - BZ-E1.20 - Laboratory for Analytical Chemistry II
 - [BZ-E1.22](BZ_E122.qmd) - Laboratory for Molecular Biology
+- [BZ-E1.23](BZ_E123.qmd) - Sensor Testing Lab
 - [BZ-E2.31](BZ_E231.qmd) - Teaching Laboratory II
 
 ## K Building
