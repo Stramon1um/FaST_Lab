@@ -51,9 +51,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - BZ-NOI-A2 2.28 - Basic Microbiology
 - BZ-NOI-A2 2.29 - Genetics & SHIME
 - BZ-NOI-A2 2.38 - Twinshime
-- BZ-NOI-A2 3.03c - Oenolab
+- [BZ-NOI-A2.3.03c](BZ_A2303c.qmd) - Oenolab
 - BZ-NOI-A2 3.03d - Microscopy
 - BZ-NOI-A2 3.03f - Proteomics
+- [BZ-NOI-A2.4.09](BZ_A2409.qmd) - Laboratory for Bioenergy & Biofuels - Analytics and Processes
 
 ## B Building
 
