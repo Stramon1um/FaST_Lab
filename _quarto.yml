@@ -4,6 +4,7 @@ project:
 
 website:
   title: "SDS List"
+  description: "SDS List Unibz"
   navbar:
     left:
       - href: index.qmd
@@ -22,4 +23,7 @@ format:
     toc-depth: 3
 
 editor: source
+
+execute: 
+  freeze: auto
 
